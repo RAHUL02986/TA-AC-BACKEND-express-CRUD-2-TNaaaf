@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Article Form </h1>
+    </header>
+    <form action="/form" method="POST">
+        <input type="text" name="title" placeholder="title">
+
+        <input type="text" name="description" placeholder="Add Des
+        ">
+
+        <input type="text" name="tags" placeholder="Tages">
+
+        <input type="text" name="Author" placeholder="Author">
+
+        <input type="number" name="likes" placeholder="0">
+
+        <a href="">
+            <button>Inc/Dec</button>
+        </a>
+        <a href="/:id/edit">
+            <button>Edit</button>
+        </a>
+        <a href="/delete">
+            <button>Delete</button>
+        </a>
+    </form>
+</body>
+</html>
